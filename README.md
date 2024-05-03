@@ -15,51 +15,49 @@ This is a simple Todo List web application built using Django framework. It allo
 
 ```bash
 git clone https://github.com/wisdomdzontoh/django-todo-list.git
-
 ```
+
+```bash
 
 cd django-todo-list
 
 ```
 
-```
-
+```bash
 python3 -m venv env
-
 ```
 
-```
+```bash
 
 source env/bin/activate
 
 ```
 
-```
+```bash
 
 pip install -r requirements.txt
 
 ```
 
-```
+```bash
 
 python manage.py migrate
 
 ```
 
-```
+```bash
 
 python manage.py createsuperuser
 
 ```
 
-```
+```bash
 
 python manage.py runserver
 
 ```
+
 Access the application in your web browser at http://localhost:8000.
-
-
 
 ## Usage
 
@@ -69,7 +67,8 @@ Create a new task by clicking on the "Add Task" button and entering the task det
 To edit or delete a task, click on the task title in the list.
 You can mark tasks as completed by clicking on the checkbox next to each task.
 Log out when you're done using the application.
-```
+
+````
 
 ## Contributing
 
@@ -79,6 +78,6 @@ Contributions are welcome! If you find any bugs or have suggestions for improvem
 
 This project is licensed under the MIT License.
 
-```
+```bash
 Feel free to customize it further according to your project's specific details and requirements!
-```
+````
